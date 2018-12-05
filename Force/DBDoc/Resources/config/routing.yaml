@@ -1,0 +1,5 @@
+
+force.db_doc.documentor.all:
+    path: /db/doc
+    controller: Force\DBDoc\Controller\DocumentorController::allAction
+    methods: ["GET", "OPTIONS"]

@@ -1,0 +1,23 @@
+{
+    "name": "force/db-doc",
+    "description": "Document DB properties from entities and count the number of elements registered",
+    "type": "library",
+    "require": {
+        "symfony/http-kernel": "^4.3@dev",
+        "symfony/config": "^4.3@dev",
+        "symfony/dependency-injection": "^4.3@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "matthieu vallance",
+            "email": "matthieu.vallance@vesperiagroup.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+    	"psr-4": {
+    		"Force\\DBDoc\\": "Force/DBDoc/"
+    	}
+	}
+}
