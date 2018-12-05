@@ -3,9 +3,9 @@
     "description": "Document DB properties from entities and count the number of elements registered",
     "type": "library",
     "require": {
-        "symfony/http-kernel": "^4.3@dev",
-        "symfony/config": "^4.3@dev",
-        "symfony/dependency-injection": "^4.3@dev"
+        "symfony/http-kernel": ">=3.4@dev <5",
+        "symfony/config": ">=3.4@dev <5",
+        "symfony/dependency-injection": ">=3.4@dev <5"
     },
     "license": "MIT",
     "authors": [
